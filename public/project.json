@@ -1,0 +1,12 @@
+{
+  "description": "A live wallpaper background",
+  "file": "./index.html",
+  "general": {
+    "supportsaudioprocessing": true
+  },
+  "preview": "./preview.png",
+  "title": "Background",
+  "type": "web",
+  "official": false,
+  "public": true
+}

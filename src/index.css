@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu&display=swap");
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Ubuntu', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.app {
+  background-image: url("./wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 100vh;
+  width: 100vw;
+
+  position: relative;
+  display: flex;
+
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.app__clock {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 162px;
+  color: white;
+}
+
+.app__canvas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
